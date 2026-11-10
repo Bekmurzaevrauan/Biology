@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNA WORLD — генетика әлемі</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">🧬 DNA WORLD</div>
+
+      <nav>
+        <a href="#home">Бас кабинет</a>
+        <a href="#about">ДНҚ туралы</a>
+        <a href="#structure">Құрылымы</a>
+        <a href="#facts">Мәліметтер</a>
+        <a href="#quiz">Тест</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="tag">ГЕНЕТИКА ӘЛЕМІ</span>
+
+        <h1>
+          ДНҚ<br />
+          <span>ҚҰПИЯЛАРЫН АШЫҢЫЗ</span>
+        </h1>
+
+        <p>
+          Генетикалық кодтың қалай жұмыс істейтінін және ДНҚ-ның не үшін екенін
+          біліңіз бұл тұқым қуалайтын ақпараттың негізгі қоймасы.
+        </p>
+
+        <a href="#about" class="btn">Бастау →</a>
+      </div>
+
+      <div class="dna">
+        <div class="strand"></div>
+        <div class="strand second"></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>ДНҚ дегеніміз не?</h2>
+
+      <p>
+        ДНҚ (дезоксирибонуклеин қышқылы) — Бұл дегеніміз тұқымқуалау ақпаратын
+        сақтайтын молекула. Оның ішінде даму үшін қажетті нұсқаулар бар,
+        организмдердің жұмыс істеуі және көбеюі туралы.
+      </p>
+    </section>
+
+    <section class="structure" id="structure">
+      <h2>ДНҚ ҚҰРЫЛЫМЫ</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Аденин (А)</h3>
+          <p>Тиминмен қосылатын азотты негіз.</p>
+        </div>
+
+        <div class="card">
+          <h3>Тимин (Т)</h3>
+          <p>Аденинмен қосылатын азотты негіз.</p>
+        </div>
+
+        <div class="card">
+          <h3>Гуанин (Г)</h3>
+          <p>Цитозинмен қосылатын азотты негіз.</p>
+        </div>
+
+        <div class="card">
+          <h3>Цитозин (Ц)</h3>
+          <p>Гуанинмен қосылатын азотты негіз.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts" id="facts">
+      <h2>Қызықты мәліметтер</h2>
+
+      <div class="fact-box">
+        <h3>01</h3>
+        <p>Адамның ДНҚ сында шамамен 3 миллиард базалық жұп бар.</p>
+      </div>
+
+      <div class="fact-box">
+        <h3>02</h3>
+        <p>ДНҚ қос спираль түрінде болады.</p>
+      </div>
+
+      <div class="fact-box">
+        <h3>03</h3>
+        <p>
+          ДНҚ организмнің тұқым қуалайтын белгілері туралы ақпаратты сақтайды.
+        </p>
+      </div>
+    </section>
+
+    <section class="quiz" id="quiz">
+      <h2>Өзіңді тексер!</h2>
+
+      <p>ДНҚ молекуласы қандай формада болады?</p>
+
+      <button onclick="checkAnswer('a')">Бір тізбекті</button>
+      <button onclick="checkAnswer('b')">Қос тізбекті</button>
+      <button onclick="checkAnswer('c')">Домалақ</button>
+
+      <h3 id="result"></h3>
+    </section>
+
+    <footer>
+      <p>© 2026 Bekmurzaev Rauan 1WEB-226</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
